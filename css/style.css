@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+
+}
+
+.container {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+}
+
+.container .content {
+   text-align: center;
+}
+
+.container .content h3 {
+   font-size: 30px;
+   color: #333;
+}
+
+.container .content h3 span {
+   background: rgb(86, 22, 141);
+   color: #fff;
+   border-radius: 5px;
+   padding: 0 15px;
+}
+
+.container .content h1 {
+   font-size: 50px;
+   color: #333;
+}
+
+.container .content h1 span {
+   color: crimson;
+}
+
+.container .content p {
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn {
+   display: inline-block;
+   padding: 10px 30px;
+   font-size: 20px;
+   background: #333;
+   color: #fff;
+   margin: 0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover {
+   background: crimson;
+}
+
+.form-container {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+   background: #eee;
+   background-image: url("backg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.form-container form {
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   background: #161020;
+   text-align: center;
+   width: 600px;
+   height: 500px;
+}
+
+.form-container form h3 {
+   font-size: 34px;
+   text-transform: uppercase;
+   padding-top: 6px;
+   margin-bottom: 10px;
+   color: #fff;
+}
+
+.form-container form input,
+.form-container form select {
+   width: 100%;
+   padding: 13px 17px;
+   font-size: 22px;
+   font-weight: 500;
+   margin: 10px 0;
+   background: #eee;
+   border-radius: 10px;
+}
+
+.form-container form select option {
+   background: #fff;
+}
+
+.form-container form .form-btn {
+   background: #ab92d0;
+   color: #5621a7;
+   text-transform: capitalize;
+   font-size: 24px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+   background: #403369;
+   color: #fff;
+}
+
+.form-container form p {
+   margin-top: 16px;
+   font-size: 22px;
+   color: #fff;
+}
+
+.form-container form p a {
+   color: #ab92d0;
+}
+
+.form-container form .error-msg {
+   margin: 10px 0;
+   display: block;
+   background: crimson;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 10px;
+}
+
+.formcontainer {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+   background: #eee;
+   background-image: url("backg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.formcontainer form {
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   background: #161020;
+   text-align: center;
+   width: 700px;
+   height: 660px;
+}
+
+.formcontainer form h3 {
+   font-size: 30px;
+   text-transform: uppercase;
+   padding-top: 0px;
+   margin-bottom: 5px;
+   color: #fff;
+}
+
+.formcontainer form input,
+.formcontainer form select {
+   width: 100%;
+   padding: 13px 17px;
+   font-size: 22px;
+   font-weight: 500;
+   margin: 10px 0;
+   background: #eee;
+   border-radius: 10px;
+}
+
+.formcontainer form select option {
+   background: #fff;
+}
+
+.formcontainer form .form-btn {
+   background: #ab92d0;
+   color: #5621a7;
+   text-transform: capitalize;
+   font-size: 24px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.formcontainer form .form-btn:hover {
+   background: #403369;
+   color: #fff;
+}
+
+.formcontainer form p {
+   margin-top: 7px;
+   font-size: 22px;
+   color: #fff;
+}
+
+.formcontainer form p a {
+   color: #ab92d0;
+}
+
+.formcontainer form .error-msg {
+   margin: 10px 0;
+   display: block;
+   background: crimson;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 10px;
+}
