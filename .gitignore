@@ -1,1 +1,6 @@
-/.vscode
+.vscode
+config.php
+landing.php
+login_form.php
+logout.php
+register_form.php
